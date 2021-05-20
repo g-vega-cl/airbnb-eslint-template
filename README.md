@@ -27,5 +27,4 @@ We also use `lint-staged`. This tool allows us to run certain scripts against an
 
 1. `yarn add --dev lint-staged husky`
 2. We create lint-staged.config.js and configure it.
-3. Add husky to package.json and add the precommit hook.
-4.
+3. Add husky to package.json and add the precommit hook
