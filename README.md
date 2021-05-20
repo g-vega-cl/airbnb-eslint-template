@@ -25,4 +25,9 @@ The ruleset is mantained by AirBnB [here](https://github.com/airbnb/javascript).
 With Husky we use our package.json to specify what we will run.
 We also use `lint-staged`. This tool allows us to run certain scripts against any files added to the git stage (any files you use `git add` on)
 
+0. If you get lost, you can follow the instructions [here](https://www.youtube.com/watch?v=C7D4nMvbdFQ)
 1. `yarn add --dev husky lint-staged` to add lint-staged.
+2. To integrate eslint with prettier we do: `yarn add --dev eslint-config-prettier`. [here is why](https://prettier.io/docs/en/integrating-with-linters.html).
+3. run `yarn add --dev mrm-task-lint-staged`. And `yarn add --dev mrm`
+4. run `yarn mrm lint-staged` to start lint-staged configuration. This creates husky folder and pre-commit file
+5. In package.json add file types in `lint-staged`

@@ -20,6 +20,15 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
+    "mrm": "^3.0.2",
+    "mrm-task-lint-staged": "^6.0.0",
     "prettier": "^2.3.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --cache --fix",
+    "*.{js,ts,jsx,tsx,md}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }
