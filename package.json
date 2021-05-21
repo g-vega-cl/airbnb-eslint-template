@@ -29,6 +29,7 @@
     "*.{js,ts,jsx,tsx,md}": "prettier --write"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts"
   }
 }
